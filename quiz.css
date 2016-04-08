@@ -1,0 +1,24 @@
+/*----------------------------------
+  QUIZ CSS FOR PRODUCT CARDS
+------------------------------------*/
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.card {
+  display: inline-block;
+  width: 390px;
+  border: 1px solid lightblue;
+}
+
+.card img {
+  width: 380px;
+  height: 500px;
+}
+
+.card-header h1 {
+  text-align: center;
+  border: 1px dotted lightgrey;
+}
