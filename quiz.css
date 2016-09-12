@@ -1,0 +1,61 @@
+/*----------------------------------
+  QUIZ CSS FOR PRODUCT CARDS
+------------------------------------*/
+
+/* GLOBAL STYLING */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* CARD STYLING */
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  height: 1000px;
+  border: 1px solid lightblue;
+  margin: 1.3333%;
+}
+
+.card-header h1 {
+  text-align: center;
+  border: 1px dotted lightgrey;
+  margin: 0;
+  padding: 30px;
+}
+
+.card img {
+  display: block;
+  width: 330px;
+  height: 450px;
+  margin: auto;
+}
+
+.card-description p {
+  text-align: justify;
+  margin: 0 20px 20px;
+}
+
+.availability p{
+  color: yellow;
+  background-color: darkgrey;
+  padding: 4px;
+}
+
+footer h4 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.specs {
+  margin-bottom: 10px;
+}
+
+.specs h3 {
+  font-weight: bold;
+  margin: 2px 10px 2px;
+}
+
+.specs p {
+  margin: 0 20px;
+}
